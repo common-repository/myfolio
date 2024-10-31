@@ -1,0 +1,52 @@
+/* The circle */
+.ec-circle{
+	text-align: center;
+    overflow: hidden;
+	font-family:'Kelly Slab', Georgia, serif;
+    background: #dda994 no-repeat center center;
+	text-decoration:none !important;
+	
+	-webkit-transition: box-shadow 400ms ease-in-out;
+	-moz-transition: box-shadow 400ms ease-in-out;
+	-o-transition: box-shadow 400ms ease-in-out;
+	-ms-transition: box-shadow 400ms ease-in-out;
+	transition: box-shadow 400ms ease-in-out;
+	/*For IE < 9 so that we have some kind of effect */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	display: block;
+	outline: none;
+	
+}
+
+
+
+.ec-circle-hover{
+	
+	/*For IE < 9 so that we have some kind of effect */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+/* Text inside of circle */
+.ec-circle h3{
+	color: #000000;
+    text-shadow: 0px 0px 100px #fff;
+	text-transform: uppercase;
+    -webkit-transition: text-shadow 400ms ease-in-out;
+	-moz-transition: text-shadow 400ms ease-in-out;
+	-o-transition: text-shadow 400ms ease-in-out;
+	-ms-transition: text-shadow 400ms ease-in-out;
+	transition: text-shadow 400ms ease-in-out;
+}
+.ec-circle-hover h3{
+	text-shadow: 0px 0px 1px #fff;
+}
+
+.folio_clear{
+	clear:both;
+	width:100%;
+}
+
+
+.myfolio-item{
+	border:none;
+	width:100%;
+}
